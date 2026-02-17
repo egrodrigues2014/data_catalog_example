@@ -38,10 +38,11 @@ Proporcionar una guía centralizada para la gestión de datos que incluya:
 | Nombre Campo | Title | nombre_columna |
 | Tipo de Dato | Select | INT, VARCHAR, DATE |
 | Descripción | Text | Definición clara |
+| Valores posibles / Referencias| Text | 0= A, 1=B, 2=C , etc |
+| Obligatorio | Text | Si / No |
 | Ejemplo | Text | Valor ejemplo |
-| Sensible | Checkbox | publico,interno, confidencial, sensible|
-| Regla de Calidad | Text | No nulo, >0, unico, etc |
-| Regla de Calculo (Solo si aplica) | Text | Detalle de como se calcula |
+| Comentarios adicionales | Text | PK , No nulo, >0, unico, etc |
+
 
 ---
 
@@ -74,5 +75,8 @@ Esto te permite:
 ## ⚠️ Consideraciones
 
 Especificar limitaciones conocidas y definiciones a nivel de arquitectura.
+
+## Links
+https://docs.google.com/spreadsheets/d/1zhSnzY7oIbcbCU7fIyikELp_gUGGYwyDlZcRkztviGc/edit?usp=sharing
 
 
